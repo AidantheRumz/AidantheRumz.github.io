@@ -1,0 +1,15 @@
+.kozatitlephoto{
+    background-image: url("images/KOZA_PHOTO1.JPG");
+	background-size: 70rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    font-size: 2500% ;
+    margin-top: 0%;
+    text-align: center;
+    color: rgb(255, 167, 167);
+    opacity: 75%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
