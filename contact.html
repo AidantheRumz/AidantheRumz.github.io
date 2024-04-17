@@ -101,7 +101,7 @@
     </header>
 
     <main>
-        <form action="/my-handling-form-page" method="post">
+        <form action="https://api.sheetmonkey.io/form/eNsfKgdvScWfnt8VFNubvC" method="post">
             <ul>
               <li>
                 <label for="name">Name:</label>
@@ -115,7 +115,12 @@
                 <label for="msg">Message:</label>
                 <textarea id="msg" name="user_message"></textarea>
                 
-                <input type="submit" id="submit" name="user_submit"
+                <button type="submit">Send Message</button>
+                <input
+                  type="hidden"
+                  name="x-sheetmonkey-redirect"
+                  value="https://AidantheRumz.github.io/thank-you.html"
+                  >
               </li>
             </ul>
           </form>
