@@ -33,7 +33,7 @@
           
           ul {
             list-style: none;
-            padding: 0;
+            padding: 1em;
             margin: 0;
           }
           
@@ -58,6 +58,7 @@
             box-sizing: border-box;
             /* Match form field borders */
             border: 1px solid #999;
+            border-radius: .5em;
           }
           
           input:focus,
@@ -113,6 +114,8 @@
               <li>
                 <label for="msg">Message:</label>
                 <textarea id="msg" name="user_message"></textarea>
+                
+                <input type="submit" id="submit" name="user_submit"
               </li>
             </ul>
           </form>
