@@ -152,13 +152,15 @@ nav {
   }
 
 .card{
-	
-	max-width: 50em;
-	margin: auto;
-	padding: 1em;
+	background: white;
+	margin: center;
+	margin-bottom: 10em;
+	padding: .5em;
 	border: 2px solid #3c3c3c;
-	display: inline-flex;
+	display: inline-block;
+	text-align: center;
 	border-radius: 1em;
 	background-color: white;
 	margin-bottom: 1em;
+	width: 30em
 }
